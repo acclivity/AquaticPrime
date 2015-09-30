@@ -6,3 +6,6 @@ node_modules
 Source/NodeJS/dist
 
 /Source/Cocoa/AquaticPrime.xcodeproj/xcuserdata/
+Source/Cocoa/files
+Source/Cocoa/*.log
+Source/Cocoa/*.tar.gz
