@@ -25,6 +25,7 @@
 // OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #import "AquaticPrime.h"
+#include <openssl/ssl.h>
 
 @implementation AquaticPrime
 
@@ -270,7 +271,7 @@
 	
 	// Decrypt the signature - should get 20 bytes back
 	unsigned char checkDigest[20];
-	if (RSA_public_decrypt([signature length], [signature bytes], checkDigest, rsaKey, RSA_PKCS1_PADDING) != 20)
+	if (RSA_public_decrypt((int)[signature length], [signature bytes], checkDigest, rsaKey, RSA_PKCS1_PADDING) != 20)
 		return nil;
 	
 	// Make sure the license hash isn't on the blacklist
