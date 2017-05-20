@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BD8A2F51BBB6F1F00B5781B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD8A2F31BBB6F1F00B5781B /* libcrypto.a */; };
-		2BD8A2F61BBB6F1F00B5781B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD8A2F31BBB6F1F00B5781B /* libcrypto.a */; };
-		2BD8A2F71BBB6F1F00B5781B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD8A2F41BBB6F1F00B5781B /* libssl.a */; };
-		2BD8A2F81BBB6F1F00B5781B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD8A2F41BBB6F1F00B5781B /* libssl.a */; };
+		373614AD1ECFCFE3003AEEB2 /* libcrypto.1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 373614AC1ECFCFE3003AEEB2 /* libcrypto.1.0.0.dylib */; };
+		373614AF1ECFCFE6003AEEB2 /* libssl.1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 373614AE1ECFCFE6003AEEB2 /* libssl.1.0.0.dylib */; };
+		373614CE1ECFD2A8003AEEB2 /* libcrypto.1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 373614AC1ECFCFE3003AEEB2 /* libcrypto.1.0.0.dylib */; };
+		373614CF1ECFD2AB003AEEB2 /* libssl.1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 373614AE1ECFCFE6003AEEB2 /* libssl.1.0.0.dylib */; };
 		3D12D49D085286600035BA78 /* AquaticPrime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D12D49B085286600035BA78 /* AquaticPrime.m */; };
 		3D9B64DB086DCB77006322F1 /* AquaticPrime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D12D49B085286600035BA78 /* AquaticPrime.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
@@ -20,9 +20,11 @@
 /* Begin PBXFileReference section */
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		2BD8A2F31BBB6F1F00B5781B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "dist/openssl-1.0.2d-MacOSX/lib/libcrypto.a"; sourceTree = "<group>"; };
-		2BD8A2F41BBB6F1F00B5781B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "dist/openssl-1.0.2d-MacOSX/lib/libssl.a"; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* AquaticPrime_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AquaticPrime_Prefix.pch; sourceTree = "<group>"; };
+		373614AC1ECFCFE3003AEEB2 /* libcrypto.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.0.0.dylib; path = ../../../../checkout/build_openssl/lib/libcrypto.1.0.0.dylib; sourceTree = "<group>"; };
+		373614AE1ECFCFE6003AEEB2 /* libssl.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.1.0.0.dylib; path = ../../../../checkout/build_openssl/lib/libssl.1.0.0.dylib; sourceTree = "<group>"; };
+		373614D01ECFD37C003AEEB2 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../../../../checkout/build_openssl/lib/libcrypto.a; sourceTree = "<group>"; };
+		373614D11ECFD37C003AEEB2 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../../../../checkout/build_openssl/lib/libssl.a; sourceTree = "<group>"; };
 		3D12D49A085286600035BA78 /* AquaticPrime.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AquaticPrime.h; sourceTree = "<group>"; };
 		3D12D49B085286600035BA78 /* AquaticPrime.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AquaticPrime.m; sourceTree = "<group>"; };
 		3D9B64D7086DCB44006322F1 /* libAquaticPrime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAquaticPrime.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,8 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BD8A2F81BBB6F1F00B5781B /* libssl.a in Frameworks */,
-				2BD8A2F61BBB6F1F00B5781B /* libcrypto.a in Frameworks */,
+				373614AD1ECFCFE3003AEEB2 /* libcrypto.1.0.0.dylib in Frameworks */,
+				373614AF1ECFCFE6003AEEB2 /* libssl.1.0.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,9 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BD8A2F51BBB6F1F00B5781B /* libcrypto.a in Frameworks */,
 				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
-				2BD8A2F71BBB6F1F00B5781B /* libssl.a in Frameworks */,
+				373614CE1ECFD2A8003AEEB2 /* libcrypto.1.0.0.dylib in Frameworks */,
+				373614CF1ECFD2AB003AEEB2 /* libssl.1.0.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +72,7 @@
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				373614AB1ECFCFE3003AEEB2 /* Frameworks */,
 			);
 			name = AquaticPrime;
 			sourceTree = "<group>";
@@ -77,8 +80,6 @@
 		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				2BD8A2F31BBB6F1F00B5781B /* libcrypto.a */,
-				2BD8A2F41BBB6F1F00B5781B /* libssl.a */,
 				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
 			);
 			name = "External Frameworks and Libraries";
@@ -116,6 +117,17 @@
 				32DBCF5E0370ADEE00C91783 /* AquaticPrime_Prefix.pch */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		373614AB1ECFCFE3003AEEB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				373614D01ECFD37C003AEEB2 /* libcrypto.a */,
+				373614D11ECFD37C003AEEB2 /* libssl.a */,
+				373614AE1ECFCFE6003AEEB2 /* libssl.1.0.0.dylib */,
+				373614AC1ECFCFE3003AEEB2 /* libcrypto.1.0.0.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,12 +253,15 @@
 				GCC_PREFIX_HEADER = AquaticPrime_Prefix.pch;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/dist/openssl-1.0.2d-MacOSX/include";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../checkout/build_openssl/include/",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dist/openssl-1.0.2d-MacOSX/lib",
+					"$(SRCROOT)/../../../../checkout/build_openssl/lib/",
 				);
 				LIBRARY_STYLE = DYNAMIC;
 				MACH_O_TYPE = mh_dylib;
@@ -282,12 +297,15 @@
 				GCC_PREFIX_HEADER = AquaticPrime_Prefix.pch;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/dist/openssl-1.0.2d-MacOSX/include";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../checkout/build_openssl/include/",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dist/openssl-1.0.2d-MacOSX/lib",
+					"$(SRCROOT)/../../../../checkout/build_openssl/lib/",
 				);
 				LIBRARY_STYLE = DYNAMIC;
 				MACH_O_TYPE = mh_dylib;
@@ -322,12 +340,15 @@
 				GCC_PREFIX_HEADER = AquaticPrime_Prefix.pch;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/dist/openssl-1.0.2d-MacOSX/include";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../checkout/build_openssl/include/",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dist/openssl-1.0.2d-MacOSX/lib",
+					"$(SRCROOT)/../../../../checkout/build_openssl/lib/",
 				);
 				LIBRARY_STYLE = DYNAMIC;
 				MACH_O_TYPE = mh_dylib;
@@ -439,11 +460,14 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/dist/openssl-1.0.2d-MacOSX/include";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../checkout/build_openssl/include/",
+				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dist/openssl-1.0.2d-MacOSX/lib",
+					"$(SRCROOT)/../../../../checkout/build_openssl/lib/",
 				);
 				LIBRARY_STYLE = STATIC;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
@@ -478,11 +502,14 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/dist/openssl-1.0.2d-MacOSX/include";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../checkout/build_openssl/include/",
+				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dist/openssl-1.0.2d-MacOSX/lib",
+					"$(SRCROOT)/../../../../checkout/build_openssl/lib/",
 				);
 				LIBRARY_STYLE = STATIC;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
@@ -516,11 +543,14 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/dist/openssl-1.0.2d-MacOSX/include";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../checkout/build_openssl/include/",
+				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dist/openssl-1.0.2d-MacOSX/lib",
+					"$(SRCROOT)/../../../../checkout/build_openssl/lib/",
 				);
 				LIBRARY_STYLE = STATIC;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;

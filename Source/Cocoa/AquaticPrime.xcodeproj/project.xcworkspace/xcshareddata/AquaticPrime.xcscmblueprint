@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1294249FF98BDD8B2B61312A7FA4A54FFB4217F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7793AF1FFED80C05B7758BDB46D94422A1E7DD88" : 9223372036854775807,
+    "1294249FF98BDD8B2B61312A7FA4A54FFB4217F2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "45087347-3C47-4649-8144-016EF8A6D273",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7793AF1FFED80C05B7758BDB46D94422A1E7DD88" : "..\/checkout",
+    "1294249FF98BDD8B2B61312A7FA4A54FFB4217F2" : "AquaticPrime\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AquaticPrime",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Source\/Cocoa\/AquaticPrime.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:acclivity\/AquaticPrime.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1294249FF98BDD8B2B61312A7FA4A54FFB4217F2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:acclivitynyc\/checkout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7793AF1FFED80C05B7758BDB46D94422A1E7DD88"
+    }
+  ]
+}
