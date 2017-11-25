@@ -43,16 +43,15 @@
 {
 	ERR_load_crypto_strings();
 	
-	if (![super init])
-		return nil;
-	
-	aqError = [[NSString alloc] init];
-	blacklist = [[NSArray alloc] init];
-	hash = [[NSString alloc] init];
-    rsaKey = nil;
-	
-	[self setKey:key privateKey:privateKey];
-	
+    self = [super init];
+    if (self) {
+        aqError = [[NSString alloc] init];
+        blacklist = [[NSArray alloc] init];
+        hash = [[NSString alloc] init];
+        rsaKey = nil;
+        
+        [self setKey:key privateKey:privateKey];
+    }
 	return self;
 }
 
