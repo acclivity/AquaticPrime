@@ -169,7 +169,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 3D9364660856794A006F1864 /* Build configuration list for PBXProject "AquaticPrime" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -241,7 +241,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -269,7 +268,6 @@
 					"-seg1addr",
 					0x10000000,
 				);
-				PREBINDING = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquaticmac.AquaticPrime;
 				PRODUCT_NAME = AquaticPrime;
 				WRAPPER_EXTENSION = framework;
@@ -286,7 +284,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -313,7 +310,6 @@
 					"-seg1addr",
 					0x10000000,
 				);
-				PREBINDING = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquaticmac.AquaticPrime;
 				PRODUCT_NAME = AquaticPrime;
 				WRAPPER_EXTENSION = framework;
@@ -324,6 +320,7 @@
 		3D9364670856794A006F1864 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -363,6 +360,7 @@
 		3D9364680856794A006F1864 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -427,7 +425,6 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = AquaticPrime;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -469,7 +466,6 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = AquaticPrime;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
